@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Blog Informativo">
+    <meta name="author" content="Erick Rivera">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/daa32643d2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet">
+
+    <style>
+        .sliderr {
+            background-image: url(img/cerebro.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: #E65100;
+            font-family: 'Krona One', sans-serif;
+        }
+    </style>
+
+
+    <title>MI BLOG</title>
+</head>
+
+<body>
+    <!--inicio menu-->
+    <a class="nav-link" href="index.html" id="contacto"></a>
+    <!--fin menu-->
+
+    <!--inicia slider-->
+    <div class="container-fluid sliderr d-flex flex-column justify-content-center item align-items-center">
+        <div class="text-center">
+            <br>
+        </div>
+    </div>
+    <!--fin del slider-->
+
+    <!--main-->
+    <div class="container mb-5 asd">
+        <hr>
+        <h3 class="text-center yo"><i class="fas fa-user-edit"></i> REGISTRAR USUARIO</h3>
+        <hr>
+        <div class="row">
+            <!--articulos-->
+            <div class="col-12 c">
+                <div class="row mb-5 justify-content-center text-justify">
+                    <div class="col-9 aaa ffff">
+                        <br>
+                        <form class="formulario" action="conexion/conex.php" method="POST">
+                            <input type="text" name="Nombre" placeholder="Nombre" style="border-radius: 10px;">
+                            <input type="text" name="Ape_p" placeholder="Apellido Paterno" style="border-radius: 10px;">
+                            <input type="text" name="Ape_m" placeholder="Apellido Materno" style="border-radius: 10px;">
+                            <input type="text" name="Usuario" placeholder="Nombre de Usuario" style="border-radius: 10px;">
+                            <input type="text" name="correo" placeholder="Correo Electronico" style="border-radius: 10px;">
+                            <input type="password" name="pass" placeholder="Contraseña" style="border-radius: 10px;">
+                            <div class="col-2 mx-auto"><button type="submit" value="REGISTRATE" name="btnGuardar" class="btn btn-danger"> REGISTRATE</button></div>
+                        </form>
+                        <br>
+                        <a href="login.html">
+                            <div class="col-2 mx-auto"><button type="submit" value="login" class="btn btn-primary"> INICIAR SESION</button></div>
+                        </a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <!--fin de los articulos-->
+        </div>
+    </div>
+    <!--fin del main-->
+
+    <!--footer-->
+
+    <footer class="foo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 text-left">
+                    <br>
+                    <h6 class="text-muted lead">CONTACTO:</h6>
+                    <h6 class="text-muted">
+                        Estudiante de Ing. en Tic's<br> Jerecuaro,Gto
+                        <br> Teléfonos: 4211113476<br>
+                    </h6>
+                </div>
+
+                <div class="col-xs-12 col-md-6 text-right">
+                    <br>
+                    <h6 class="text-muted lead"> REDES SOCIALES </h6>
+                    <div class="redes-footer">
+                        <a href="https://www.facebook.com/" class="ico"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/" class="ico"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/" class="ico"><i class="fas fa-paper-plane"></i></a>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12 text-right">
+                            <p class="text-muted small">Erick Jesus Rivera Benitez @2020.<br> Todos los derechos reservados.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        </div>
+    </footer>
+
+    <!--fin del footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+</body>
+
+</html>
